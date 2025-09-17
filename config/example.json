@@ -1,0 +1,26 @@
+{
+  "basePath": "/api",
+  "routes": [
+    { "method": "GET", "path": "/sessions/:tenantId", "status": 200, "response": [{
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "person": "Gigio Rivadossi",
+      "sessionStarted": "11:30 - 12/05/2024",
+      "sessionEnded": "",
+      "isActive": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "person": "Alfredo Trasteverino",
+      "sessionStarted": "15:05 - 20/02/2024",
+      "sessionEnded": "16:05 - 20/02/2024",
+      "isActive": false
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "person": "Gaetano Bellanova",
+      "sessionStarted": "9:27 - 18/02/2024",
+      "sessionEnded": "13:27 - 18/02/2024",
+      "isActive": false
+    }] }
+  ]
+}

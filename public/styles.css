@@ -1,0 +1,27 @@
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;margin:0;background:#0f172a;color:#e2e8f0}
+header{padding:24px;border-bottom:1px solid #243249;background:#111827}
+main{padding:24px;display:grid;gap:16px;grid-template-columns:1fr}
+@media (min-width: 900px){
+  main{grid-template-columns:1fr 1fr}
+}
+.card{background:#111827;border:1px solid #243249;border-radius:12px;padding:16px}
+h1{margin:0 0 8px 0;font-size:22px}
+h2{margin:0 0 12px 0;font-size:18px}
+.row{display:flex;gap:12px;align-items:center;margin:8px 0}
+textarea{width:100%;min-height:220px;background:#0b1220;color:#e2e8f0;border:1px solid #243249;border-radius:8px;padding:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+button{background:#2563eb;border:none;color:#fff;padding:10px 14px;border-radius:8px;cursor:pointer}
+button:hover{background:#1d4ed8}
+footer{padding:16px;border-top:1px solid #243249;color:#94a3b8}
+ul{list-style:none;padding-left:0}
+li{padding:6px 0;border-bottom:1px dashed #243249}
+
+/* Header layout for right-aligned status */
+.header-bar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.header-actions{display:flex;align-items:center;gap:8px}
+
+/* cURL example blocks */
+.curl-block{border:1px solid #243249;border-radius:8px;padding:12px;background:#0b1220;margin:8px 0;position:relative}
+.curl-title{color:#94a3b8;margin:0 0 8px 0;font-size:12px}
+.curl-code{white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+.curl-copy{position:absolute;top:8px;right:8px;background:#334155;border:1px solid #475569;color:#e2e8f0;padding:6px 8px;border-radius:6px;font-size:12px;cursor:pointer}
+.curl-copy:hover{background:#1f2937}

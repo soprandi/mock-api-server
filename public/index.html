@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mock API Admin</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-bar">
+      <h1>Mock API UI</h1>
+      <div class="header-actions">
+        <button id="btnHealth">Ping /health</button>
+        <span id="healthStatus"></span>
+      </div>
+    </div>
+    <p>Load a JSON configuration and generate mock APIs (GET, POST, PATCH, PUT, DELETE).</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Load configuration</h2>
+      <div class="row">
+        <textarea id="configInput" placeholder='Paste your JSON configuration here (the app will auto-load config/example.json if available)'></textarea>
+      </div>
+      <div class="row">
+        <button id="btnLoadFromTextarea">Load from JSON</button>
+        <button id="btnLoadExample">Load example</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>cURL examples</h2>
+      <div id="curlExamples"></div>
+    </section>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <p>Server: <a href="#" id="serverUrl">http://localhost:3000</a></p>
+  </footer>
+
+  <script src="/main.js"></script>
+</body>
+</html>
